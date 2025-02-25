@@ -15,7 +15,7 @@
    ```
 2. **Install Dependencies**
    ```bash
-   npm install ethers@5 dotenv ethers ora readline cfonts prompts colors axios chalk figlet solc
+   npm install node-fetch@2 && npm install node-fetch && npm install ethers@5 dotenv ethers ora readline cfonts prompts colors axios chalk figlet solc
    ```
 3. **Set Private Key**
    ```bash
