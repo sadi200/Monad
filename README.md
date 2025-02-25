@@ -1,4 +1,4 @@
-# Monad Testnet Automation Guide
+# Monad Testnet Automation Guide & Notification Your Telegram BOT
 
 ## Prerequisites
 - Ensure you have **MON** & **ETH MON** in your wallet.
