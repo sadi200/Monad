@@ -41,15 +41,4 @@
 	sudo apt install -y nodejs
 	node -v && npm -v
    ```
-   **Kopi**: https://trakteer.id/Winsnipsupport/tip
-
-### **Join Telegram Winsnip**
-
-Stay updated and connect with the Winsnip community:
-
-Channel: https://t.me/winsnip
-
-Group Chat: https://t.me/winsnip_chat
-
-
-This ensures users can join the Telegram community easily and stay engaged with updates and discussions.
+   
