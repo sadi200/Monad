@@ -25,7 +25,14 @@
    ```bash
    screen -R monad
    ```
-5. **Run the Application**
+
+5. ## Edit BOT API & Chat ID
+ 
+```bash
+   nano main.js
+   ```
+   
+6. **Run the Application**
    ```bash
    node main.js
    ```
