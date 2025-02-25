@@ -1,10 +1,18 @@
-#!/bin/bash
-echo -e '\e[34m'
-echo -e '████████  ████████   '
-echo -e '██        ██    ██         '
-echo -e '████████  ████████      '
-echo -e '██        ██     '
-echo -e '████████  ██     '
-echo -e '                                                   '
-echo -e '\e[0m'
-echo -e "Join our Telegram channel: https://t.me/Earnpoint10"
+require("colors");
+
+function displayHeader() {
+  process.stdout.write("\x1Bc"); 
+
+  console.log(`
+            ${"██".rainbow}  
+            ${"██".cyan} 
+            ${"██╔╝".green} 
+            ${"██".yellow}  
+            ${"╚█".blue}      
+            ${" ╚══╝".red}  
+
+            ${"🔥 Join grup TG:".bold} ${"@Earnpoint10".underline.brightCyan}
+  `.split("\n").map(line => line.padStart(50)).join("\n")); 
+}
+
+module.exports = displayHeader;
